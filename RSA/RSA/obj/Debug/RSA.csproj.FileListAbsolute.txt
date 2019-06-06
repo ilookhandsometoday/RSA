@@ -1,0 +1,10 @@
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\obj\Debug\RSA.csprojAssemblyReference.cache
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\obj\Debug\RSA.Form1.resources
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\obj\Debug\RSA.Properties.Resources.resources
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\obj\Debug\RSA.csproj.GenerateResource.cache
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\obj\Debug\RSA.csproj.CoreCompileInputs.cache
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\bin\Debug\RSA.exe.config
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\bin\Debug\RSA.exe
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\bin\Debug\RSA.pdb
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\obj\Debug\RSA.exe
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\obj\Debug\RSA.pdb
