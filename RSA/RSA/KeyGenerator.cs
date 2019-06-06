@@ -21,7 +21,11 @@ namespace RSA
                 BigInteger q = this.BigPrimeGenerator();
                 this.N = p * q;
                 BigInteger nEulersFunction = (p - 1) * (q - 1);
-                this.E = this.BigPrimeGenerator();
+                do
+                {
+                    this.E = this.BigPrimeGenerator();
+                }
+                while (this.E >= this.N);
                 BigInteger y = 0; //// variable needed for executing the ExtendedEuclidianAlgorithm();
                 BigInteger d = this.D;
                 this.ExtendedEuclideanAlgorithm(this.E, nEulersFunction, ref d, ref y);
