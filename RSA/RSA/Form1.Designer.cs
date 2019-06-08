@@ -190,6 +190,7 @@
             // 
             // GeneratedKeyEncryptionButton
             // 
+            this.GeneratedKeyEncryptionButton.Enabled = false;
             this.GeneratedKeyEncryptionButton.Location = new System.Drawing.Point(538, 184);
             this.GeneratedKeyEncryptionButton.Name = "GeneratedKeyEncryptionButton";
             this.GeneratedKeyEncryptionButton.Size = new System.Drawing.Size(585, 34);
@@ -318,7 +319,7 @@
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RSA";
+            this.Text = "RSA Text Encryptor/Decryptor";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Tabs.ResumeLayout(false);
             this.KeyManagement.ResumeLayout(false);

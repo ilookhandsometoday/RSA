@@ -8,3 +8,5 @@ C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная прак�
 C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\bin\Debug\RSA.pdb
 C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\obj\Debug\RSA.exe
 C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\obj\Debug\RSA.pdb
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\NVDenisov\Desktop\yeah i fucking love studying\Учебная практика\RSA\RSA\obj\Debug\RSA.csproj.CopyComplete
