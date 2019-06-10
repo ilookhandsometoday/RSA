@@ -12,12 +12,12 @@ namespace RSA
         public static List<BigInteger> Encrypt(string forEncryption, BigInteger e, BigInteger n)
         {
             int forEncryptionLength = forEncryption.Length;
-            byte[] forEncryptionUTF8;
+            byte[] forEncryptionUnicode;
             List<BigInteger> result = new List<BigInteger>(); // splitting the messsage into 1 character chunks;
             for (int i = 0; i < forEncryptionLength; i++)
             {
-                forEncryptionUTF8 = Encoding.Unicode.GetBytes($"{forEncryption[i]}");
-                result.Add(new BigInteger(forEncryptionUTF8));
+                forEncryptionUnicode = Encoding.Unicode.GetBytes($"{forEncryption[i]}");
+                result.Add(new BigInteger(forEncryptionUnicode));
                 result[i] = result[i].ModPow(e, n);
             }
 

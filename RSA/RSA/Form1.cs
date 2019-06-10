@@ -34,6 +34,7 @@ namespace RSA
 
         private void GeneratedKeyEncrypt()
         {
+            this.EncryptedText.Clear();
             List<BigInteger> encrypted = EncryptorDecryptor.Encrypt(this.TextForEncryption.Text, keyGen.E, keyGen.N);
             int encryptedLength = encrypted.Count;
             for (int i = 0; i < encryptedLength; i++)
@@ -87,6 +88,8 @@ namespace RSA
             if (!char.IsDigit(e.KeyChar))
             {
                 if (e.KeyChar == '-' && this.TextForDecryption.SelectionStart == 0 && !this.TextForDecryption.Text.Contains('-'))
+                    return;
+                else if (e.KeyChar == ' ')
                     return;
                 e.Handled = true;
             }

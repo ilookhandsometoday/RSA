@@ -9,13 +9,12 @@ namespace RSA
 {
     public class KeyGenerator
     {
-        private static Random rNG = new Random();
-
         public KeyGenerator()
         {
             BigInteger lastCheck = BigInteger.Zero;
             do
             {
+                Random rNG = new Random();
                 BigInteger p = BigInteger.ProbablePrime(512, rNG);
                 BigInteger q = BigInteger.ProbablePrime(512, rNG);
                 this.N = p.Multiply(q);
